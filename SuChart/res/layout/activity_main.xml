@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dc.chartproject.MainActivity" >
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/lineChart"
+        android:layout_width="match_parent"
+        android:layout_height="240dp" />
+
+    <Button
+        android:id="@+id/chart_clear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="移除表格" />
+
+    <Button
+        android:id="@+id/btn_chart_none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="设置空表格" />
+
+    <Button
+        android:id="@+id/btn_real"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加一个数据" />
+
+    <Button
+        android:id="@+id/btn_real_del"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="移除上一次数据" />
+
+    <Button
+        android:id="@+id/btn_demo_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加一组模拟数据" />
+
+    <Button
+        android:id="@+id/btn_demo_remove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="移除一组模拟数据" />
+
+</LinearLayout>

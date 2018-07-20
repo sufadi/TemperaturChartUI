@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.su.temperature.MainActivity" >
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/lineChart"
+        android:layout_width="match_parent"
+        android:layout_height="240dp" />
+
+    <Button
+        android:id="@+id/btn_real_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加实际数据" />
+
+    <Button
+        android:id="@+id/btn_predict_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="添加预测数据" />
+
+    <Button
+        android:id="@+id/btn_auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自动模拟运行" />
+
+    <Button
+        android:id="@+id/btn_clear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="清空数据" />
+
+</LinearLayout>
